@@ -1,8 +1,6 @@
 temp = input("What is the temperature today? ")
-
-int(temp)
-
 temp = int(temp)
+
 if temp >= 90:
     print("Wear shorts.")
 elif 90 > temp and temp >= 72:
